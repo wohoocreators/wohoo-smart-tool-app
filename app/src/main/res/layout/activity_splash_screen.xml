@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/shapes"
+    android:orientation="vertical"
+    tools:context=".splash_screen">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/logo"
+
+        ></ImageView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wohoo Smart"
+        android:id="@+id/namen"
+        android:textColor="#fff"
+        android:textSize="38sp"></TextView>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+
+        app:lottie_rawRes="@raw/loa"
+
+    app:lottie_autoPlay="true" />
+
+
+</LinearLayout>

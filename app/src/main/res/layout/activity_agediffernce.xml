@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/shapes"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="100dp"
+        android:background="@drawable/age"
+        android:layout_height="100dp"
+
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGE Calculator"
+        android:textAllCaps="true"
+        android:textSize="26sp"
+        android:layout_marginVertical="25dp"
+        android:textColor="@color/white"
+        />
+    <!-- linear layout to show datepickers-->
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <!-- to select the first date-->
+
+
+        <!-- displaying message as "to"-->
+        <Button
+            android:id="@+id/bt_birthdj"
+android:drawableStart="@drawable/ic_baseline_calendar_month_24"
+            android:layout_marginTop="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="Enter Date of Birth"
+
+            android:textColor="#fafafa"
+            />
+
+        <!-- to display date number 2-->
+        <Button
+            android:id="@+id/bt_today"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+
+            android:textColor="#fff"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+    <!-- to perform the calculation-->
+
+    <!-- to display the message "Result"-->
+
+
+    <!-- To show the final output(age)-->
+
+    <Button
+        android:id="@+id/btn_calculatedj"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_bg"
+        android:text="Calculate"
+        android:textColor="#fafafa" />
+
+    <TextView
+        android:id="@+id/tv_resultdj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+
+</LinearLayout>

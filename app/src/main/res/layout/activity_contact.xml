@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+
+    tools:context=".contact">
+    <ImageView
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+    android:background="@drawable/logo"
+        android:layout_gravity="center"
+        ></ImageView>
+
+    <com.google.android.material.card.MaterialCardView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginVertical="7dp"
+
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+    <TextView
+        android:id="@+id/titlle1"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designed and Developed by"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+
+android:gravity="center"
+        ></TextView>
+    <TextView
+        android:id="@+id/tittle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Harish Ramasamy"
+       android:textSize="22sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                ></TextView></LinearLayout></com.google.android.material.card.MaterialCardView>
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#000"
+
+        android:text="Contact"></TextView>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/instaint"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/instagram">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/mail1"
+            android:layout_marginLeft="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/gmail">
+
+        </ImageView>
+
+    </LinearLayout>
+
+</LinearLayout>

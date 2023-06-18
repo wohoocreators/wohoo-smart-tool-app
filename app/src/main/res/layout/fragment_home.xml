@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.home"
+    android:background="@drawable/shapes"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    >
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/ic_launcher"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:id="@+id/tooltxt"
+        android:text="Smart Tools"
+        android:textStyle="bold"
+        android:layout_marginTop="17dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        ></TextView>
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="bottom"
+        >
+        <GridLayout
+
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="8"
+            android:columnCount="3"
+
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            >
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="140dp"
+                android:id="@+id/torch"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/flas1"
+
+                    ></ImageView>
+
+                <TextView
+                    android:id="@+id/trchtxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Torch"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"></TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="110dp"
+                android:layout_height="140dp"
+                android:id="@+id/mirror"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/mirror"
+
+                    ></ImageView>
+
+                <TextView
+                    android:id="@+id/mirrtxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Mirror"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/Qrcode"
+                android:layout_width="110dp"
+                android:layout_height="140dp"
+
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/qr1"
+
+                    ></ImageView>
+
+                <TextView
+                    android:id="@+id/qrctxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Qr code "
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"></TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/compass"
+                android:layout_width="122dp"
+                android:layout_height="140dp"
+
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/comp"
+
+                    ></ImageView>
+
+                <TextView
+                    android:id="@+id/stoptxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Compass"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="122dp"
+                android:layout_height="140dp"
+                android:id="@+id/agecalc"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/agecalc"
+
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Age Calc"
+android:id="@+id/agecalctxt"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"></TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/agediff"
+                android:layout_width="122dp"
+                android:layout_height="140dp"
+
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/agediff"
+
+                    ></ImageView>
+
+                <TextView
+                    android:id="@+id/agedifftxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Age Diff"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"></TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/bmical"
+                android:layout_width="122dp"
+                android:layout_height="140dp"
+
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bmi8"
+
+                    ></ImageView>
+
+                <TextView
+                    android:id="@+id/bmitxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Bmi"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="122dp"
+                android:layout_height="140dp"
+                android:id="@+id/timer"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/chronometer"
+
+                    ></ImageView>
+
+                <TextView
+                    android:id="@+id/timertxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Timer"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="122dp"
+                android:layout_height="140dp"
+                android:id="@+id/passgenerta"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/passkkkk"
+
+                    ></ImageView>
+
+                <TextView
+                    android:id="@+id/psstxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Password"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"></TextView>
+
+            </LinearLayout>
+
+        </GridLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

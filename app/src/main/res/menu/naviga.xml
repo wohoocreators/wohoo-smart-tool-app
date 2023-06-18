@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="About"
+
+        ></item>
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="Share this app"
+
+        ></item>
+
+    <item
+        android:id="@+id/rate"
+        android:icon="@drawable/ic_baseline_star_rate_24"
+        android:title="Rate and Review"
+
+        ></item>
+    <item
+        android:id="@+id/exitv"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Exit"
+
+        ></item>
+</menu>

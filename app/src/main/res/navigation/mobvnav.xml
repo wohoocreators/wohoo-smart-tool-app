@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobvnavv"
+    app:startDestination="@id/navhome">
+    <fragment
+        android:id="@+id/navhome"
+        android:name="com.harish.woohoosmart.ui.home.home"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"></fragment>
+
+    <fragment
+        android:id="@+id/navabout"
+        android:name="com.harish.woohoosmart.ui.about.about"
+        android:label="about"
+        tools:layout="@layout/fragment_about">
+
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navquotes"
+        android:name="com.harish.woohoosmart.ui.quotes.quotes"
+        android:label="about"
+        tools:layout="@layout/fragment_quotes">
+
+    </fragment>
+    <fragment
+        android:id="@+id/games"
+        android:name="com.harish.woohoosmart.ui.games.Atmegames"
+        android:label="Games"
+        tools:layout="@layout/atmegames">
+
+    </fragment>
+
+
+</navigation>

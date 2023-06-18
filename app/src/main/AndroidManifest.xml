@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.harish.woohoosmart">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.any" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WooHooSmart">
+        <activity
+            android:name=".view.contact"
+            android:exported="true" />
+        <activity
+            android:name=".WebActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".smart_tools.passwordgenerator"
+            android:exported="true"
+            android:parentActivityName="view.MainActivity" />
+        <activity
+            android:name=".smart_tools.mirror"
+            android:exported="true"
+            android:parentActivityName="view.MainActivity" />
+        <activity
+            android:name=".smart_tools.torchlight"
+            android:exported="true"
+            android:parentActivityName="view.MainActivity" />
+        <activity
+            android:name=".social_media.Meesho"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".Amazon"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".social_media.Flipkart"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".social_media.Quora"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".social_media.Wikipedia"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".social_media.Pinterest"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".social_media.Youtube"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".social_media.Twitter"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".social_media.Linklidin"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".social_media.Gmail"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".social_media.Instagram"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".social_media.Facebook"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".smart_tools.STOPWATCH"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+
+        <activity
+            android:name=".smart_tools.compass"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+
+        <activity
+            android:name=".smart_tools.agediffernce"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".smart_tools.Agecalculator"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".smart_tools.BmiActivity"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".scanbutt"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".daily_quotes.Birthdayquotes"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".daily_quotes.Funnyquote"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".daily_quotes.FrndQuotes"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".daily_quotes.SadQuotes"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".loq"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".daily_quotes.MotivatonQuotes"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".daily_quotes.LoveQuotes"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".view.AppinProg"
+            android:exported="true"
+            android:parentActivityName=".view.MainActivity" />
+        <activity
+            android:name=".view.splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".push_notification.FirebaseMessageReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6850472818552165~9918389529" />
+    </application>
+
+</manifest>

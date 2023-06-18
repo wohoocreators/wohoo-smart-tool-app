@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/shapes"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:gravity="center"
+    tools:context=".ui.about.Atmegame">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Social Media"
+        android:textStyle="bold"
+        android:layout_marginTop="17dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        ></TextView>
+
+
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="bottom"
+            >
+            <GridLayout
+
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rowCount="8"
+                android:columnCount="3"
+
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="false"
+                >
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="140dp"
+                    android:id="@+id/facebook"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/facebook"
+
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Facebook"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="140dp"
+                    android:id="@+id/twitter"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/twitter"
+
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Twitter"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/instagram"
+                    android:layout_width="110dp"
+                    android:layout_height="140dp"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/instagram"
+
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Instagram "
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/gmail"
+                    android:layout_width="122dp"
+                    android:layout_height="140dp"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/gmail"
+
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Gmail"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="122dp"
+                    android:layout_height="140dp"
+                   android:id="@+id/youtube"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/youtube"
+
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text=" Youtube"
+
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linklidin"
+                    android:layout_width="122dp"
+                    android:layout_height="140dp"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/linkedin"
+
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="linkedin"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/pintrest"
+                    android:layout_width="122dp"
+                    android:layout_height="140dp"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/pinterest"
+
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Pinterest"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="122dp"
+                    android:layout_height="140dp"
+                    android:id="@+id/wikipedia"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/wikipedia"
+
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Wikipedia"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="122dp"
+                    android:layout_height="140dp"
+                    android:id="@+id/quora"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/quora"
+
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Quora"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="122dp"
+                    android:layout_height="140dp"
+                    android:id="@+id/flipkart"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/flipkart"
+
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Flipkart"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="122dp"
+                    android:layout_height="140dp"
+                    android:id="@+id/amazon"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/amazon"
+
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="amazon"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="122dp"
+                    android:layout_height="140dp"
+                    android:id="@+id/meesho"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/meesho"
+
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Meesho"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"></TextView>
+
+                </LinearLayout>
+            </GridLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+

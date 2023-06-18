@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/shapes"
+    tools:context=".motivationquotes">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="7dp"
+        android:layout_marginHorizontal="12dp"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="15dp">
+
+
+        <LinearLayout
+            android:background="@drawable/shapes3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/cry"
+                android:layout_gravity="center"
+                ></ImageView>
+            <TextView
+                android:id="@+id/sadquo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="28dp"
+                android:text=" Loading..."
+                android:textColor="#ffffff"
+                android:textSize="22sp"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#c1c1c1"
+                ></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/sadwhat1"
+                    android:clickable="true"
+                    android:background="@drawable/selector"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/phonemessage"></ImageView>
+                >
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/sadtextcpy1"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/clipboard1"></ImageView>
+                >
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-6850472818552165/9726817833"></com.google.android.gms.ads.AdView>
+
+</LinearLayout>
+

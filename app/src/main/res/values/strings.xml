@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WooHoo Smart</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="qr_code">qr_code</string>
+    <string name="enter_your_info">Enter your info</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+    <string name="notification_activity">NotificationView</string>
+</resources>
